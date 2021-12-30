@@ -121,4 +121,5 @@ fi
 cp new_mkinitcpio /etc/mkinitcpio.conf
 
 mkinitcpio -P
+
 grub-mkconfig -o /boot/grub/grub.cfg
